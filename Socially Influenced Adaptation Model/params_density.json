@@ -1,0 +1,104 @@
+{
+  "s": {
+    "value": 0.31452705598556274,
+    "description": "scaling factor for risk"
+  },
+  "R_0": {
+    "value": 6813.5919102598145,
+    "description": "baseline risk perception ($)"
+  },
+  "a": {
+    "value": 0.5000000000020626,
+    "description": "rate of memory decay for moving baseline of BAD"
+  },
+  "b": {
+    "value": 0.5,
+    "description": "intercept for linear memory decay for moving baseline of BAD"
+  },
+  "eps": {
+    "value": 0.49999999989682237,
+    "description": "correction term when dividing BAD by moving baseline"
+  },
+  "T": {
+    "value": 5,
+    "description": "number of previous years used to calculate BAD baseline"
+  },
+  "period": {
+    "value": 4,
+    "description": "number of timesteps in a year"
+  },
+  "xi": {
+    "value": 0.85,
+    "description": "proportion of outdoor time adapters choose to stay indoors"
+  },
+  "RR": {
+    "value": 1.14,
+    "description": "relative risk"
+  },
+  "VSL": {
+    "value": 7400000,
+    "description": "value of a statistical life"
+  },
+  "EPF": {
+    "2050": {
+      "REF": 2.01,
+      "P37": 1.82,
+      "P45": 1.86
+    },
+    "2100": {
+      "REF": 3.94,
+      "P37": 3.37,
+      "P45": 3.5
+    },
+    "description": "economic projection factors"
+  },
+  "BMF": {
+    "2050": 1.12,
+    "2100": 0.92,
+    "description": "baseline mortality projection factors"
+  },
+  "kappa_n": {
+    "value": 0.027798609056884888,
+    "description": "social learning rate for northeast"
+  },
+  "kappa_m": {
+    "value": 0.11168397412666536,
+    "description": "social learning rate for midwest"
+  },
+  "kappa_s": {
+    "value": 0.10549959575661998,
+    "description": "social learning rate for south"
+  },
+  "kappa_w": {
+    "value": 0.1520902797679827,
+    "description": "social learning rate for west"
+  },
+  "delta_n": {
+    "value": 0.028200439375030716,
+    "description": "level of social norms for northeast"
+  },
+  "delta_m": {
+    "value": 0.025838525704492313,
+    "description": "level of social norms for midwest"
+  },
+  "delta_s": {
+    "value": 0.017295874323908663,
+    "description": "level of social norms for south"
+  },
+  "delta_w": {
+    "value": 0.015608916863078668,
+    "description": "level of social norms for west"
+  },
+  "x0_n": {
+    "value": 0.1194589172658549
+  },
+  "x0_m": {
+    "value": 0.10119154714192274
+  },
+  "x0_s": {
+    "value": 0.14710216071224463
+  },
+  "x0_w": {
+    "value": 0.20440151082227817
+  }
+}
